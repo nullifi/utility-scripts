@@ -1,0 +1,22 @@
+Utility-Scripts
+---------------
+
+This is a collection of useful scripts written in everything from
+Batch, PowerShell, Python, and anything else.
+
+
+Included Scripts
+----------------
+
+wsus.bat - A Windows Server Update Services Switcher
+	A simple batch file that will quickly and easily flip a non-domain
+	system to use a local WSUS server for Windows updates.
+
+Trust-Relationship-Fixer - Automated domain leave/join scripts
+	A collection of scripts that will automatically leave a domain, and then
+	rejoin the domain. Used to fix trust relationship issues when using system
+	restore and a computer forgets its domain password.
+
+manage-printers.ps1 - A PowerShell printer management script
+	A not-quite-completed printer script written in PowerShell. Supposed to easily
+	add, remove, and replace printers on a local system.
